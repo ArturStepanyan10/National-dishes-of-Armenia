@@ -12,7 +12,7 @@ services:
     networks:
       - dbnet
     volumes:
-      - ./nda:/app/www/National_dishes_Armenia
+      - ./National_dishes_Armenia:/app
     ports:
       - 8000:8000
     depends_on:
